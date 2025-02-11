@@ -1,0 +1,13 @@
+prefix=/Users/vidyashinde/Documents/Jupyter/MLProject/venv
+exec_prefix=/Users/vidyashinde/Documents/Jupyter/MLProject/venv
+libdir=/Users/vidyashinde/Documents/Jupyter/MLProject/venv/lib
+sharedlibdir=/Users/vidyashinde/Documents/Jupyter/MLProject/venv/lib
+includedir=/Users/vidyashinde/Documents/Jupyter/MLProject/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
